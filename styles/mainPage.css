@@ -1,0 +1,30 @@
+body {
+    margin:0px;
+    font-family: sans-serif;
+
+
+}
+.container {
+  width: 80%;
+  margin: 0px auto;  
+
+}
+h1 {
+   text-align: center;
+   text-transform: capitalize;
+   color: red;
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+    color: red;
+}
+.data{
+    margin-top: 100px;
+}
+.data div {
+    margin-left: 10%
+}
+.data div h3 {
+ display: inline-block;
+}
