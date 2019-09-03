@@ -13,6 +13,7 @@ app.use(express.static(path.join(projectPath.path,'styles')));
 app.use(bodyparser.urlencoded({extended:false}));*/
 app.use(bodyparser.json({}));
 app.get('/',(req,res,next)=>{
+    console.log('main page');
     res.json("hello wold");
 });
 //app.use(mainPageRoute);
