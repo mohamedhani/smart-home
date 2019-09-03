@@ -20,7 +20,7 @@ app.use(mainPageRoute);
 
 const port = process.env.port || 9000;
 
-app.listen(port,()=>{
+app.listen(config.port,()=>{
     console.log("connected");
 
 });
