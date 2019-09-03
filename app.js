@@ -12,6 +12,9 @@ app.set('views','views');
 app.use(express.static(path.join(projectPath.path,'styles')));
 app.use(bodyparser.urlencoded({extended:false}));
 app.use(bodyparser.json({}));
+app.get('/',(req,res,next)=>{
+    res.json("hello wold");
+});
 app.use(mainPageRoute);
 
 const port = process.env.port || 9000;
